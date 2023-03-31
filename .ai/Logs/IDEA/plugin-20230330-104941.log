@@ -1,0 +1,27 @@
+2023-03-30T17:49:42.015Z [intellij.services.AIInitializeManager.initializeAI] INFO AI state ENABLED
+2023-03-30T17:49:42.020Z [intellij.services.AIInitializeManager.initializeAI] INFO is toolwindow active false, is info toolwindow active false
+2023-03-30T17:49:42.026Z [intellij.services.AIInitializeManager.initializeAI] INFO AI state ENABLED
+2023-03-30T17:49:42.027Z [intellij.services.AIInitializeManager.initializeAI] INFO is toolwindow active true, is info toolwindow active true
+2023-03-30T17:49:42.028Z [ctureModificationListener$Companion.initForProject] INFO ProjectStructureModificationListener is init for project DEBUGGERAPP
+2023-03-30T17:49:42.031Z [ojectContextInitializer.createInfrastructureFacade] INFO Found port: 4278
+2023-03-30T17:49:42.073Z [itializeManager$initializeAnalyzer$1.invokeSuspend] WARN java.io.IOException: Cannot run program "C:\Users\Rahman Niftaliyev\AppData\Local\Application Inspector Analyzer\infr.exe": CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at expect.ExpectProcessManager.run(ExpectProcessManager.kt:45)
+	at services.InfrastructureClientFacade.start(InfrastructureClientFacade.kt:72)
+	at com.ptsecurity.aiintellij.services.PluginInfrastructureInitializer.initializeInfrastructureInstance(PluginInfrastructureInitializer.kt:23)
+	at com.ptsecurity.aiintellij.services.ProjectContextInitializer.initializeProjectContext(ProjectContextInitializer.kt:44)
+	at com.ptsecurity.aiintellij.services.AIInitializeManager$initializeAnalyzer$1.invokeSuspend(AIInitializeManager.kt:154)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 12 more
+
