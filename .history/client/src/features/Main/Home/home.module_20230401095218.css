@@ -1,0 +1,7 @@
+.home_container{
+    max-width: 1440px;
+    padding-left: 68px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}

@@ -1,0 +1,9 @@
+.home_container{
+    max-width: 1440px;
+    padding-left: 70px;
+    padding-right: 110px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-image: url(./assets/backgroundImg.svg);
+}

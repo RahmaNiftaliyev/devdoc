@@ -1,0 +1,71 @@
+.Register_form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form_container {
+    display: flex;
+    justify-content: space-between;
+}
+.form_box {
+    padding: 55px 70px;
+    background-color: rgba(66, 66, 66, 1);
+    border: 1px solid #9c27b0;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+.form_box > h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #e1bee7;
+    margin-bottom: 48px;
+}
+
+.signin_button_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+.signin_button_box > button {
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-right: 22px;
+}
+
+.signin_button_facebook {
+    background: #5856d6;
+}
+.signin_button_github {
+    background: #2e2f2e;
+}
+
+.signin_button_google {
+    background: #f44336;
+    margin-right: 0 !important;
+}
+
+.signin_button_box > button > svg {
+    margin-right: 7px;
+}
+
+.signin_or_email > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.54);
+}
